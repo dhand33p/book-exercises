@@ -21,7 +21,8 @@ toupper(now_doing)
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
 # variables `fav_1` and `fav_2`
-
+fav_1 <- 9 
+fav_2 <- 25
 
 # Divide each number by the square root of 201 and save the new value in the
 # original variable
