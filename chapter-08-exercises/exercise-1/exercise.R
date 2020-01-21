@@ -4,7 +4,7 @@
 my_breakfast <- c("cereal", "milk")
 
 # Create a vector `my_lunch` of everything you ate (or will eat) for lunch
-my_lunch <- c("roti", "daal")
+my_lunch <- c("roti", "dal")
 
 # Create a list `meals` that has contains your breakfast and lunch
 meals <- list(breakfast = my_breakfast, lunch = my_lunch)
