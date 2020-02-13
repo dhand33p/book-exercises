@@ -46,7 +46,7 @@ is.data.frame(data)
 # Manually inspect the returned data and identify the content of interest 
 # (which are the movie reviews).
 # Use functions such as `names()`, `str()`, etc.
-View(data)
+
 data_df <- as.data.frame(data)
 View(data_df)
 
