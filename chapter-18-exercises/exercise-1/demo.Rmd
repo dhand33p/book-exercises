@@ -1,0 +1,27 @@
+---
+title: "R Markdown Demo"
+author: "Dhandeep Suglani"
+date: "2/11/2020"
+output: html_document
+---
+
+## This is my markdown report
+
+l like writing **reports** 
+
+This is the code we will look at in class. Thisis just plain old Markdown that lets you rendertext in **bold** or _italics_. However, you canput in a block of R code, and the document willshow the code and the results!
+
+``` {r example, echo= FALSE}
+numbers <- runif(1:100)
+hist(numbers)
+numbers_mean <- mean(numbers)
+
+```
+
+The mean of the numbers
+
+```{r other_chunk , echo= FALSE}
+print(numbers)
+```
+
+
